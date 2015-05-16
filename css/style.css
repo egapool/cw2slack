@@ -1,0 +1,149 @@
+	.roomIcon,
+	.chatListPin,
+	.subRoomTaskArea,
+	.sideTitleBtn,
+	.chatFilterMenu,
+	.globalHeader,
+	.chatRoomMemberInfo,
+	.chatSendToolbar,
+	.chatNameOrgname,
+	.chatroomTitle,
+	.ico19PinOn,
+	.avatarTiny,
+	.otherInfo,
+	.windowBtnL,
+	.showAreatext
+	{
+		display: none !important;
+	}
+
+	.subRoomDescriptionOverflow,
+	.chatRoomListArea,
+	.subContent,
+	.chatContent {
+		height: 100% !important;
+	}
+
+	/* base */
+	.wrapper {
+		background-color: #fff;
+	}
+
+	/* room list */
+	.sideContentHl {
+		background-color: #3E313C;
+		border:none;
+		color:#fff;
+	}
+	.menuListTitle > li {
+		border:none !important;
+		min-height: 0px;
+		padding: 3px 10px 5px 15px;
+		transition:none;
+		width: 80%;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		overflow: visible;
+	}
+	.menuListTitle > li:hover {
+		color: #AB9BA9;
+		background-color: #342A33;
+		background-image: none;
+	}
+	.menuListTitle > li.roomUnread:hover p.chatListTitleArea:before{
+		color: #AB9BA9;
+	}
+	.menuListTitle > li:hover .incomplete li.unread > span,
+	.menuListTitle > li:hover .incomplete li.unread {
+		color: #AB9BA9 !important;
+	}
+	.menuListTitle > li .incomplete .unread {
+		background:none !important;
+	}
+
+	.chatListMeta {
+		position: static;
+	}
+	.chatListTitleArea {
+		height: 1.05em;
+	}
+	p.chatListTitleArea:before {
+		content: '#';
+		margin-right: 2px;
+		color: #776276;
+	}
+
+	.chatRoomListArea {
+		background-color: #453744;
+		color:#AB9BA9;
+		padding:10px 0 0 0;
+	}
+	.roomUnread {
+		font-weight: 700px;
+		color:#fff;
+	}
+	.roomUnread p.chatListTitleArea:before{
+		color:#fff;
+	}
+	li.menuListTitleSelected {
+		background-color: #4C9689 !important;
+	}
+	.menuListTitle > li.menuListTitleSelected p.chatListTitleArea:before {
+		color:#fff;
+	}
+	ul.incomplete {
+		position: absolute;
+		top: 1px;
+		right: 5px;
+	}
+	.roomOthers {
+		right:-34px;
+	}
+	.ico19Others {
+	  background: none;
+	}
+	.roomOthers:before {
+		content: ' ';
+		display: inline-block;
+		border: 1px dashed #FFF;
+		position: absolute;
+		left: 0px;
+		top: 3px;
+		height: 11px;
+		border-color: #FFFCC5;
+	}
+
+	/* chat list */
+	.chatName {
+		color:#808080;
+		font-weight: 200;
+	}
+	.chatTimeLineMessage .chatTimeLineMessageInner {
+	  padding: 2px 10px;
+	}
+	.chatTimeLineBorder {
+		border:none !important;
+	}
+	.chatTimeLineMessage .chatTimeLineMessageInner {
+		border:none !important;
+
+	}
+	.chatTimeLineMessage .chatTimeLineMessageHover {
+		background:none !important;
+		border:none !important;
+	}
+	.timeStamp {
+		color:#D2D2D2;
+	}
+
+	/* chat textarea */
+	.chatSendArea {
+		background-color: #fff;
+	}
+	.chatSendTextarea textarea{
+		height: 3em !important;
+	}
+	.chatSendAreaContentShadow {
+		box-shadow: none;
+		border-radius: 0px;
+	}
