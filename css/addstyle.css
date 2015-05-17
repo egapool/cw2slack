@@ -12,11 +12,19 @@
 	.avatarTiny,
 	.otherInfo,
 	.windowBtnL,
-	.showAreatext
+	.showAreatext,
+	.icoFontActionReply,
+	.chatTimeLineReply span
 	{
 		display: none !important;
 	}
 
+	html,
+	body,
+	.wrapper,
+	.content,
+	.sideContent,
+	.sideContentMenu,
 	.subRoomDescriptionOverflow,
 	.chatRoomListArea,
 	.subContent,
@@ -77,6 +85,7 @@
 		background-color: #453744;
 		color:#AB9BA9;
 		padding:10px 0 0 0;
+		overflow: scroll;
 	}
 	.roomUnread {
 		font-weight: 700px;
@@ -113,7 +122,15 @@
 		border-color: #FFFCC5;
 	}
 
+	/* content header */
+	.mainContentHl {
+	  background-color: #FFF;
+	}
+
 	/* chat list */
+	.chatContent {
+		border-right: none;
+	}
 	.chatName {
 		color:#808080;
 		font-weight: 200;
@@ -135,6 +152,41 @@
 	.timeStamp {
 		color:#D2D2D2;
 	}
+	.chatName {
+		color:#3D3C40;
+		font-weight:bold;
+		font-size: 12px;
+	}
+	.avatarSpeaker .avatarMedium {
+		border-radius: 4px;
+	}
+	.chatTimeLineTo,
+	.chatTimeLineReply {
+		font-weight: normal;
+		padding:0px;
+		margin:0px;
+		background:none;
+	}
+	.chatTimeLineTo:after,
+	.chatTimeLineReply:after {
+		content: "@";
+		font-size: 13px;
+		font-weight: 200;
+		color: #0BF;
+		margin-right: -3px;
+	}
+	.chatTimeLineTo {
+		overflow: hidden;
+		text-indent: -50px;
+		height: 11px;
+		width: 10px;
+		margin-right: -3px;
+	}
+	.chatTimeLineTo:after {
+		position: relative;
+		left: 35px;
+		top: -4px;
+	}
 
 	/* chat textarea */
 	.chatSendArea {
@@ -147,3 +199,20 @@
 		box-shadow: none;
 		border-radius: 0px;
 	}
+
+	/* side bar */
+	.subRoomInfomation .subContentSection {
+		border:none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
