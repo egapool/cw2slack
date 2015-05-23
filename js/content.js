@@ -5,9 +5,6 @@
     // アクティブフラグがfalseなら終了
     if(actived === false) return;
 
-    var GROUP_NAME = $($('.chatNameOrgname span')[0]).text();
-    $('#_sideContentTitleText').text(GROUP_NAME);
-
     // 打ち消しスタイルの読み込み
     var style = document.createElement('link');
     style.rel = 'stylesheet';

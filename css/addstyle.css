@@ -194,6 +194,7 @@
 	}
 	.chatSendTextarea textarea{
 		height: 3em !important;
+		overflow-y: scroll;
 	}
 	.chatSendAreaContentShadow {
 		box-shadow: none;
